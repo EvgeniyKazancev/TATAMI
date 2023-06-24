@@ -1,0 +1,60 @@
+nav {
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+nav ul {
+  background-color: #0000004f;
+  color: white;
+  list-style-type: none;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: n;
+  font-size: 18px;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+}
+a:hover{
+	color: #FF0000;
+}
+
+a {
+  margin-right: 30px; /* задаем отступ в 10 пикселей */
+}
+
+a:last-child {
+  margin-right: 0; /* убираем отступ у последней ссылки */
+}
+.fixed-links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0000004f; /* задаем фон для видимости */
+  
+  z-index: 9999; /* задаем высокий уровень z-index, чтобы элемент был поверх других */
+}
+.head-par{
+	 font-size: 100px;
+	 text-align: center;
+	 color: red;
+	font-family: Broadway, sans-serif;
+}
+.img-federaciy{
+	margin: 30px;
+	
+}
