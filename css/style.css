@@ -33,6 +33,8 @@ a:hover{
 }
 
 a {
+  transition: all .2s ease;
+  text-decoration: none;
   margin-right: 30px; /* задаем отступ в 10 пикселей */
 }
 
@@ -49,12 +51,26 @@ a:last-child {
   z-index: 9999; /* задаем высокий уровень z-index, чтобы элемент был поверх других */
 }
 .head-par{
+  display: flex;
+  margin-left: 750px;
 	 font-size: 100px;
 	 text-align: center;
 	 color: red;
 	font-family: Broadway, sans-serif;
 }
 .img-federaciy{
+  display: flex;
 	margin: 30px;
 	
+}
+.img-karate{
+  display: flex;
+  margin: 30px;
+  margin-right: 20px;
+  
+}
+
+.navImg {
+  display: flex;
+/*  justify-content: space-between;*/
 }
