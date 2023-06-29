@@ -63,14 +63,25 @@ a:last-child {
 	margin: 30px;
 	
 }
-.img-karate{
+.img-karate:last-child{
+
+
+position: relative;
+   left: 780px;
+
   display: flex;
   margin: 30px;
-  margin-right: 20px;
+  margin-right: 40px;
   
 }
+.box{
+  position: relative;
 
+}
 .navImg {
+ 
+  
   display: flex;
 /*  justify-content: space-between;*/
 }
+
