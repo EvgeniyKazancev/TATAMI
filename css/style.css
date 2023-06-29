@@ -64,10 +64,8 @@ a:last-child {
 	
 }
 .img-karate:last-child{
-
-
-position: relative;
-   left: 780px;
+ position: relative;
+  left: 780px;
 
   display: flex;
   margin: 30px;
