@@ -1,11 +1,11 @@
 nav {
-  background-color: #f1f1f1;
+  background-color: black;
   overflow: hidden;
 }
 
 nav ul {
-  background-color: #0000004f;
-  color: white;
+  background-color:black;
+  color:black;
   list-style-type: none;
   font-size: 30px;
   margin: 0;
@@ -33,6 +33,7 @@ a:hover{
 }
 
 a {
+  color: white;
   transition: all .2s ease;
   text-decoration: none;
   margin-right: 30px; /* задаем отступ в 10 пикселей */
@@ -51,6 +52,7 @@ a:last-child {
   z-index: 9999; /* задаем высокий уровень z-index, чтобы элемент был поверх других */
 }
 .head-par{
+ 
   display: flex;
   margin-left: 750px;
 	 font-size: 100px;
@@ -74,6 +76,8 @@ a:last-child {
 }
 .box{
   position: relative;
+/*  //background-color: black;*/
+
 
 }
 .navImg {
